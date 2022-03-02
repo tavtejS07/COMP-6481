@@ -8,11 +8,11 @@ public class ArraysPractice3 {
 	private static Scanner sc = new Scanner(System.in);
 	
 	public static void reverseArray(int[] array) {
-		int num = array.length;
+		int num = array.length-1;
 		for(int i=0; i<num/2; i++) {
 			int temp = array[i];
-			array[i] = array[num-i-1];
-			array[num-i-1] = temp;
+			array[i] = array[num-i];
+			array[num-i] = temp;
 		}
 	}
 
@@ -23,10 +23,11 @@ public class ArraysPractice3 {
 		for(int i=0; i<array.length; i++) {
 			array[i] = sc.nextInt();
 		}
+		System.out.println("input Array is: " + Arrays.toString(array));
 		
 		reverseArray(array);
 		
-		System.out.println(Arrays.toString(array));
+		System.out.println("reversed Array is: " + Arrays.toString(array));
 
 	}
 
