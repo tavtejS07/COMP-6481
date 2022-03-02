@@ -1,7 +1,7 @@
 package practice6481.udemy;
 import java.util.*;
 
-public class ArrayPractice2 {
+public class ArraysPractice2 {
 	
 	private static Scanner sc = new Scanner(System.in);
 	
