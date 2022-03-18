@@ -28,24 +28,6 @@ public class Exam2B {
 			}
 		}
 		System.out.println(sum);
-		
-//		for(int m = 0; m < input_int.length-1; m++) {
-//			if(input_int[m] > sum) {
-//				System.out.println(sum);
-//				break;
-//			}
-//			sum += input_int[m];
-//			input_int1[m] = sum;
-//			x = input_int1[m] + 1;
-//			if(x < input_int[m+1]) {
-//				System.out.println(x);
-//				break;
-//			}
-//		}
-//		
-//		System.out.println(sum+1+input_int[n-1]);
-		sc.close();
-			
+		sc.close();			
 }
-
 }
