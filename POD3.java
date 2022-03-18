@@ -1,11 +1,8 @@
 import java.util.*;
 
 public class POD3 {
-
 	public static void main(String[] args) {
-		
 		Scanner sc = new Scanner(System.in);
-		
 		String input_a = sc.nextLine();
 		String input_b = sc.nextLine();
 		
@@ -43,20 +40,11 @@ public class POD3 {
 		diagonal2 = b[2]*b[2];
 		sum2 = length2 + breadth2;
 		
-//		System.out.println(length1+" " + breadth1 + " " + diagonal1);
-//		System.out.println(length2+" " + breadth2 + " " + diagonal2);
-		
-		//System.out.println();
-//		if(Arrays.equals(a, b) && sum1 != diagonal1 && sum2!=diagonal2)
-		
 		if(Arrays.equals(a, b) && sum1 == diagonal1 && sum2 == diagonal2) {
 			System.out.println("YES");
 		}else{
 			System.out.println("NO");
-		}
-		
+		}		
 		sc.close();
-
 	}
-
 }
