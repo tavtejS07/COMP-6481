@@ -8,9 +8,7 @@ public class Exam2B {
 		String s = sc.nextLine();
 		String[] input = s.split(" ");
 		int[] input_int = new int[n];
-		//int[] input_int1 = new int[n];
 		int sum = 1;
-		//int x = 0;
 		
 		for (int i = 0; i<input_int.length; i++) {	
 		input_int[i] = Integer.parseInt(input[i]);
