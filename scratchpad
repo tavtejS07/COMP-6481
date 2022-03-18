@@ -1,0 +1,89 @@
+mport java.util.Scanner;
+
+public class Q1A {
+	public static int[] arr;
+	
+	public static class FirstEatsSecond {
+		public static int firstCount = 0;
+		public static int secondCount = 0;
+		public static int first = 0;
+		public static int second = 0;
+		
+		
+		public static void firstSecond (int[] arr) {
+			
+			boolean[] auxArray = new boolean[arr.length];
+			
+			for(int i=0; i<arr.length; i++) {
+				auxArray[i] = false;
+			}
+			
+			
+			
+			int count = 0;
+			for(int i=0; i<arr.length; i++) {
+				if(auxArray[i] == true)
+					continue;
+				
+				auxArray[i] = true;
+				for(int j=i+1; j<arr.length; j++) {
+					if(arr[i] == arr[j]) {
+						auxArray[j] = true;
+						count++;
+						
+					}
+				}
+				
+				if(count > firstCount) {
+					second = first;
+					secondCount = firstCount;
+					first = arr[i];
+					firstCount = count;
+				} else if(count > secondCount) {
+					second = arr[i];
+					secondCount = count;
+				} else {
+					continue;
+				}
+				
+				count = 0;
+			}
+			
+//			System.out.println(firstCount);
+//			System.out.println(first);
+//			System.out.println(secondCount);
+//			System.out.println(second);
+			
+			for(int i=0; i<arr.length; i++) {
+				if(arr[i] == second)
+					arr[i] = first;
+			}
+		}
+	}
+	
+	public static void printArray() {
+		for(int i=0; i<arr.length; i++) {
+			System.out.print(arr[i] + " ");
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int arraySize = sc.nextInt();
+		arr = new int[arraySize];
+		
+		for(int i=0; i<arr.length; i++) {
+			arr[i] = sc.nextInt();
+		}
+		
+		FirstEatsSecond.firstSecond(arr);
+		
+		printArray();
+		
+		
+		sc.close();
+		
+	}
+
+}
