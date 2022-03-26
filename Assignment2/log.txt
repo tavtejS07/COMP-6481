@@ -1,0 +1,10 @@
+Directory: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/1
+File: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/1/Tom.txt
+
+Directory: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/3
+File: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/3/Harry.txt
+
+Directory: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/2
+File: /Users/tavtejsingh/Documents/Study/FALL 2021/COMP 6481/Programming/Assignment2/src/Data/2/Sam.txt
+
+
