@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"DuplicateRecordException"},{"p":"<Unnamed>","l":"EmptyFolderException"},{"p":"<Unnamed>","l":"InvalidFileException"},{"p":"<Unnamed>","l":"Sales"},{"p":"<Unnamed>","l":"SalesDatabase"}];updateSearchResults();
