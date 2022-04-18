@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"comp6481_assignment3","l":"DuplicateRecordException"},{"p":"comp6481_assignment3","l":"ProcessWhishList"},{"p":"comp6481_assignment3","l":"Show"},{"p":"comp6481_assignment3","l":"ShowList"},{"p":"comp6481_assignment3","l":"Watchable"}];updateSearchResults();
